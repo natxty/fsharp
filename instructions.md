@@ -16,6 +16,7 @@ This instruction assumes you have the necessary sotware to use _Python_, _virtua
 
 	cd /path/into/repo
 	virtualenv .
+	. bin/activate
 	pip install -r requirements.txt
 	
 
