@@ -3,7 +3,7 @@ import app
 import unittest
 import tempfile
 
-class FlaskrTestCase(unittest.TestCase):
+class FsharpTestCase(unittest.TestCase):
 
     def setUp(self):
     	app.app.config['TESTING'] = True
