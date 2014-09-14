@@ -20,7 +20,7 @@ def jqchx():
         return "Error: please submit a url"
 
     if not functions.checkUrl(url):
-        return "Error: please submit a valid url"
+        return "Error: please submit a valid url (use http://)"
 
     # so it's reasonably well-formed, let's access the page:
     process = subprocess.Popen(['static/js/vendor/phantomjs', 'static/js/vendor/jqchx.js', url], stderr=subprocess.PIPE, stdout=subprocess.PIPE)
