@@ -1,8 +1,6 @@
 import os, re
 import subprocess
 from flask import Flask, render_template, request
-from lxml import html
-import requests
 
 app = Flask(__name__)
 
