@@ -1,4 +1,4 @@
-Efsharp Problem - Nathaniel
+Efsharp/Nathaniel : Getting Started
 ====================
 ...
 
@@ -26,10 +26,16 @@ To view the page locally, run from within the root directory of the project:
 	
 	python app.py
 
- You should see something like this in the console.:
+ You should see something like this in the console:
 
 	* Running on http://0.0.0.0:5005/
 
  Proceed to [http://0.0.0.0:5005/](http://0.0.0.0:5005/) and the page/form should load.
  
- 
+ Running Tests
+----------
+
+There's a small suite of tests which can be run from the console (same directory you run the server from, above):
+
+	python run_tests.py
+	
