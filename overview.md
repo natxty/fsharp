@@ -10,6 +10,14 @@ This was an interesting problem, mostly because I couldn't shake the thought tha
 
 So, having used a lot of Javascript, and Python- and having written some automated tests with PhantomJS, I tried to make a minimal yet functional schema that solved for the requirements.
 
+The Completed Objectives
+---------
+* Created an HTML form that submits a URL from a text input to the server via AJAX
+* Python server determines what version(s) of jQuery the site at that URL uses, if any
+* The page renders the jQuery version, if one is detected
+* The page renders the message ""jQuery is not used at this site" if none is detected
+
+
 The Components
 ---------
 The basic components are:
