@@ -1,0 +1,45 @@
+{% extends "base.html" %}
+
+
+{% block content %}
+<section id="authenty_preview">
+    <section id="signin_main" class="authenty signin-main">
+        <div class="section-content">
+          <div class="wrap">
+              <div class="container">     
+                    <div class="form-wrap">
+                        <div class="row">
+                          <div class="title" data-animation="fadeInDown" data-animation-delay=".8s">
+                              <h1>jQchx</h1>
+                              <h5>JQuery Remote Version Checker</h5>
+                          </div>
+                            <div id="form_1" data-animation="bounceIn">
+                                <div class="form-header">
+                                  <i class="fa fa-user"></i>
+                              </div>
+                              <div class="form-main">
+                                <div class="messaging">
+                                    <h3>Enter a URL</h3>
+                                </div> 
+                                  <form name="jqchx_form" id="jqchx_form" method="POST" action="/jqchx">
+                                    <div class="form-group">
+                                        <input type="text" id="inputurl" class="form-control" placeholder="http://example.com" required="required" name="url" />
+                                    <button id="signIn_1" type="submit" class="btn btn-block signin" data-loading-text="<i class='icon-spinner icon-spin icon-large'></i> @Localization.Uploading">Check It!</button>
+                                </form>
+                              </div>
+                                <div class="form-footer">
+                                    <div class="row">
+                                        <div class="col-xs-12">
+                                            <a>Checking jQuery since 2014</a>
+                                        </div>
+                                    </div>
+                                </div>      
+                          </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+        </div>
+    </section>
+</section>  
+{% endblock %}

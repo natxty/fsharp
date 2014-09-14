@@ -1,0 +1,21 @@
+# Python bytecode:
+*.py[co]
+
+# Packaging files:
+*.egg*
+
+# Editor temp files:
+*.swp
+*~
+
+# virtualenv, etc paths
+.DS_Store
+.Python
+bin/
+include/
+lib/
+share/
+logs/
+src/
+Scripts/
+venv
